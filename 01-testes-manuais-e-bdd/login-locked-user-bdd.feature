@@ -6,7 +6,7 @@ Funcionalidade: Autenticação de Usuários no E-Commerce
   Para acessar o catálogo de produtos e realizar compras
 
   @cenario_negativo @usuario_bloqueado
-  Cenário: CT-LOGIN-001 - Recusa de acesso para usuário bloqueadoo
+  Cenário: CT-LOGIN-001 - Recusa de acesso para usuário bloqueado
     Dado que o usuário esteja na página inicial de autenticação "https://www.saucedemo.com/"
     Quando preencher o campo de usuário com "locked_out_user"
     E preencher o campo de senha com "secret_sauce"

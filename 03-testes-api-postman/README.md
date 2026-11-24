@@ -2,8 +2,6 @@
 
 Este módulo reúne testes de API executados no Postman contra a API pública de demonstração ServeRest. A coleção verifica autenticação, cadastro de usuários, validações de dados e operações CRUD de produtos.
 
-> As requisições foram executadas no Postman. A coleção deste módulo foi executada no Postman. A especificação Gherkin descreve os cenários de cadastro relacionados.
-
 ## Conteúdo do módulo
 
 - `Serverest-API-Tests.postman_collection.json` - coleção Postman em formato Collection v2.1, com 11 requisições e scripts de validação.

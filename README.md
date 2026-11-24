@@ -4,6 +4,14 @@ Este repositório reúne exercícios práticos de qualidade de software. O foco 
 
 Os testes de interface dos módulos 01 e 04 usam o SauceDemo. O módulo 02 reúne investigações no AcademyBugs. Os testes de API do módulo 03 usam a ServeRest.
 
+## Apresentação visual
+
+![Esquema dos módulos do portfólio](apresentacao/diagramas/estrutura-do-portfolio.png)
+
+- [PDF com a visão geral do portfólio](apresentacao/portfolio-qa-visao-geral.pdf)
+- [Mapa mental da abordagem de testes](apresentacao/diagramas/mapa-mental-testes.png) e [fonte editável](apresentacao/diagramas/mapa-mental-testes.mmd)
+- [Fonte editável do esquema dos módulos](apresentacao/diagramas/estrutura-do-portfolio.mmd)
+
 ## Módulos publicados
 
 ### 01. Testes manuais e BDD
@@ -12,6 +20,7 @@ Cenários de login, carrinho e checkout descritos em Gherkin, acompanhados por r
 
 - [Feature de login com usuário bloqueado](01-testes-manuais-e-bdd/login-locked-user-bdd.feature)
 - [Feature de carrinho e checkout](01-testes-manuais-e-bdd/carrinho-e-checkout-bdd.feature)
+- [Plano de testes do portfólio](01-testes-manuais-e-bdd/plano-de-testes.md)
 - [Relatório de execução do login](01-testes-manuais-e-bdd/relatorio-execucao-login.md)
 - [Relatório de execução do checkout](01-testes-manuais-e-bdd/relatorio-execucao-checkout.md)
 
@@ -38,8 +47,11 @@ Coleção importável para autenticação, cadastro de usuários, validações d
 Testes de interface com JavaScript e Cypress para login com usuário bloqueado e checkout.
 
 - [README do módulo Cypress](04-automacao-cypress/README.md)
+- [Plano de automação Cypress](04-automacao-cypress/plano-de-automacao.md)
 - [Teste Cypress de login bloqueado](04-automacao-cypress/cypress/e2e/login-locked-user.cy.js)
 - [Teste Cypress de checkout](04-automacao-cypress/cypress/e2e/checkout.cy.js)
+
+A integração com GitHub Actions fica para uma etapa futura. Por enquanto, o foco é entender e validar os planos e a execução local dos testes.
 
 Para instalar as dependências e executar os testes, use o terminal na pasta `04-automacao-cypress`:
 

@@ -50,7 +50,7 @@ Substitua os campos entre colchetes por informações confirmadas durante a inve
 
 ## Evidências
 
-- [Descrição da captura ou log](evidencias/nome-do-arquivo.png)
+- Descrição da captura ou log: `evidencias/nome-do-arquivo.png`
 - [Outra evidência, se houver]
 
 Explique o que cada arquivo comprova. Não use uma captura de uma tentativa como prova de outra.

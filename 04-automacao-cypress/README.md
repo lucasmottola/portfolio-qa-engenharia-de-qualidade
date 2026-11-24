@@ -2,6 +2,8 @@
 
 Este módulo contém testes automatizados de interface para o SauceDemo. Os cenários cobrem uma tentativa de login com usuário bloqueado e a conclusão de uma compra com dois produtos.
 
+O [plano de testes do SauceDemo](../01-testes-manuais-e-bdd/plano-de-testes.md) também reúne a cobertura manual e BDD. O [plano de automação](plano-de-automacao.md) descreve os critérios cobertos pela suíte Cypress e os limites atuais.
+
 ## Requisitos e execução
 
 - Node.js 22.x, 24.x ou 26.x em diante, compatível com Cypress 16.3.0 e npm
@@ -24,9 +26,9 @@ O script `npm test` executa `cypress run` e descobre os arquivos `*.cy.js` dentr
 - **Verificações:** adiciona dois produtos, confere o carrinho, preenche os dados de entrega, conclui a compra e valida a confirmação.
 - **Mensagem validada:** `Thank you for your order!`
 
-## Resultado da suíte completa
+## Execução headless registrada - 15/11/2026
 
-- **Última execução registrada:** 15/11/2026
+- **Data da execução:** 15/11/2026
 - **Ambiente:** Fedora Linux, Node.js 24.18.1, Cypress 16.3.0, Electron 150 headless.
 - **Specs executados:** 2
 - **Testes aprovados:** 2
@@ -35,6 +37,10 @@ O script `npm test` executa `cypress run` e descobre os arquivos `*.cy.js` dentr
 - **Screenshots e vídeo:** não foram gerados nessa execução.
 
 O Cypress exibiu um aviso de que o Electron será descontinuado como navegador de teste. O aviso não impediu a execução; os dois specs passaram.
+
+## Integração contínua
+
+GitHub Actions fica para uma etapa futura. Neste momento, o foco é compreender e validar a execução local. A configuração de workflow existente na cópia local não é considerada uma execução aprovada nem uma evidência deste módulo.
 
 ## Evidência e reprodutibilidade
 
@@ -49,7 +55,7 @@ npm test
 
 O SauceDemo é um site de demonstração. As credenciais usadas são as públicas do exercício; não use senhas pessoais.
 
-## Execução com evidências - 23/11/2026
+## Execução com evidências - 23/11/2026, registro mais recente
 
 - **Comando:** `npm test -- --headed`
 - **Resultado:** 2 testes aprovados, 0 falhas (`All specs passed!`)
