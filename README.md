@@ -59,6 +59,7 @@ Para instalar as dependências e executar os testes, use o terminal na pasta `04
 npm ci
 npm test
 ```
+O `npm test` usa o Google Chrome. Se ele não estiver instalado, o [README do módulo Cypress](04-automacao-cypress/README.md) mostra como usar Edge, Firefox ou Chromium.
 
 ## Escopo e evidências
 
