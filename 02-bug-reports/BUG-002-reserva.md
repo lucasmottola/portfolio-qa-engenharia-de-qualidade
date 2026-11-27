@@ -2,7 +2,7 @@
 
 ## Situação
 
-A ausência de confirmação foi observada na execução relatada. A repetibilidade em execuções independentes não foi avaliada.
+A ausência de confirmação foi observada em 2 de 2 envios independentes, no mesmo ambiente. Não foi testada em outros navegadores nem em outros dias.
 
 ## Resumo
 
@@ -79,7 +79,7 @@ A ficha contextualiza o exercício. As demais capturas registram os dois envios 
 
 ## Limites das evidências
 
-A falta de confirmação visual foi observada nas duas tentativas. A resposta HTTP `200 OK` e os dados do Payload não permitem concluir se a reserva foi registrada no servidor. Este relatório não atribui uma causa técnica ao comportamento.
+A falta de confirmação visual foi observada nas duas tentativas. A resposta HTTP `200 OK` e os dados do Payload não permitem concluir se a reserva foi registrada no servidor. Este relatório não atribui uma causa técnica ao comportamento. Por isso, a gravação da reserva fica como não verificada.
 
 Os dados de contato usados são fictícios, conforme informado pelo executor.
 
